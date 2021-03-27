@@ -19,7 +19,7 @@ COMMON_COLORS_BG_JOBS=yellow
  PROMPT='$(common_host)$(common_current_dir)$(common_bg_jobs)$(common_return_status)'
 
 # Right Prompt
- RPROMPT='$(common_git_status)'
+ RPROMPT='aws:$(aws_prompt_info) $(common_git_status)'
 
 # Prompt with current SHA
 # PROMPT='$(common_host)$(common_current_dir)$(common_bg_jobs)$(common_return_status)'
