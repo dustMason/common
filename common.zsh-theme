@@ -1,4 +1,4 @@
-# https://github.com/jackharrisonsherlock/common
+# forked from https://github.com/jackharrisonsherlock/common
 
 # Prompt symbol
 COMMON_PROMPT_SYMBOL="❯"
@@ -19,11 +19,7 @@ COMMON_COLORS_BG_JOBS=yellow
  PROMPT='$(common_host)$(common_current_dir)$(common_bg_jobs)$(common_return_status)'
 
 # Right Prompt
- RPROMPT='aws:$(aws_prompt_info) $(common_git_status)'
-
-# Prompt with current SHA
-# PROMPT='$(common_host)$(common_current_dir)$(common_bg_jobs)$(common_return_status)'
-# RPROMPT='$(common_git_status) $(git_prompt_short_sha)'
+ RPROMPT='$(aws_prompt_info) $(common_git_status)'
 
 # Host
 common_host() {
